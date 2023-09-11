@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(/Assignments/Assignm-2/social-proof-section-master/images/bg-pattern-bottom-desktop.svg);
+    background-color: white;
+    height: 100vh;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    font-family: 'League Spartan', sans-serif;
+    margin: 2rem;
+
+}
+
+.container-one {
+    display: flex;
+    padding: 5rem;
+}
+
+/* top right item */
+.header {
+margin-bottom: 1.5rem;
+color: hsl(300, 43%, 22%);
+font-size: 3rem;
+padding-right: 16.5rem;
+}
+
+.words {
+line-height: 1.3rem;
+padding-bottom: 3rem;
+color: hsl(303, 10%, 53%);
+}
+
+/* top left-item */
+
+/* .top-left {
+    display: grid;
+} */
+
+
+.rated {
+    padding-top: 2rem;
+    display: grid;
+}
+
+.rated-one {color:hsl(300, 43%, 22%);
+    display: flex;
+    border-radius: 0.5rem;
+    background-color: hsl(300, 24%, 96%);
+    padding: 0.7rem 4rem;
+    align-items: center;
+    margin-right: 6rem;
+    
+}
+
+.rated-two {
+    color:hsl(300, 43%, 22%);
+    display: flex;
+    border-radius: 0.5rem;
+    background-color: hsl(300, 24%, 96%);
+    padding: 0.7rem 4rem;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-right: 3rem;
+    padding-left: 5rem ;
+    margin-left: 2rem;
+}
+
+.rated-three {
+    color:hsl(300, 43%, 22%);
+    display: flex;
+    border-radius: 0.5rem;
+    background-color: hsl(300, 24%, 96%);
+    padding: 0.7rem 4rem;
+    align-items: center;
+
+    padding-left: 7rem;
+    margin-left: 4rem;
+}
+
+.stars {
+    padding-right: 1.5rem; 
+}
+
+/* bottom item */
+
+.container-two{
+    display: flex;
+}
+
+.boxes {
+    display: flex;   
+    gap: 1.5rem;
+}
+
+.mini-head {
+    display: flex;
+    align-items: center;
+}
+
+.image {
+    padding-bottom: 2rem;
+    padding-right: 2rem;
+}
+
+
+/* .name-box {
+    
+} */
+
+.name {
+    color: white;
+}
+
+.verified {
+    color: hsl(333, 80%, 67%);
+}
+
+.comment {
+    line-height: 1.2rem;
+}
+
+
+
+.box-one {
+    padding: 1.8rem;
+    border-radius: 0.5rem;
+    background-color: hwb(300 13% 69%);
+    margin-bottom: 4rem;
+} 
+
+.box-two {
+    padding: 1.8rem;
+    border-radius: 0.5rem;
+    background-color: hsl(300, 43%, 22%);
+    margin-top: 1.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.box-three {
+    padding: 1.8rem;
+    border-radius: 0.5rem;
+    background-color: hsl(300, 43%, 22%);
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+
+.comment {
+    color: white;
+}
+
+@media screen and (max-width: 600px) {
+
+.body {
+    margin: 2rem;
+}
+
+.container {
+    display: grid;
+    
+}
+
+.container-one {
+    display: grid;
+}
+
+/* top left item */
+.top-left{
+    order: 1;
+}
+
+top right item
+
+.top-right{
+    order: 2;
+    display: grid;
+}
+
+.rated {
+    display: grid;
+    margin-bottom: 2rem;
+    padding: 0rem;
+    align-items: center;
+}
+
+.rated-one {
+    display: grid;
+    align-items: center;
+    margin-right: 2rem;
+
+    padding-right: 0rem;
+}
+
+.stars {
+    padding-left: 1.5rem;
+}
+
+.rated-two {
+    display: grid;
+    align-items: center;
+    margin-right: 2rem;
+
+    padding-right: 0rem;
+    padding-right: 0rem;
+}
+
+.rated-three {
+    display: grid;
+    align-items: center;
+    margin-right: 2rem;
+
+    padding-right: rem;
+    margin: 0rem;
+}
+
+/* bottom item */
+
+.boxes {
+    display: grid;
+}
+
+}
